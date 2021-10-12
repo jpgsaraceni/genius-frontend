@@ -1,29 +1,27 @@
 import React from 'react';
-import { BrowserRouter, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, Switch, Redirect, Route } from 'react-router-dom';
 
-// import Home from '../pages/Home';
-import Login from '../pages/Login';
-import PublicRoute from './PublicRoute';
-// import PrivateRoute from './PrivateRoute';
+import Home from '../pages/Home';
+import Game from '../pages/Game';
+import Help from '../pages/Help';
+import Settings from '../pages/Settings';
 
 /**
-  * Pages that can be accessed by a user who is not logged use the PublicRoute component.
-  *
-  * Pages that can only be accessed by authenticated users use the PrivateRoute component.
-  *
-  * Public pages that shouldn't be accessed by an authenticated user (e.g. login)
-  * use PublicRoute component with restricted prop.
-  */
+ * Renders each component according to the URL. Nest this inside your AppProvider in App.js.
+ * @returns {BrowserRouter} Your application routes.
+ */
 function Routes() {
-    return (
-        <BrowserRouter>
-            <Switch>
-                <Redirect exact to="/login" from="/" />
-                <PublicRoute restricted path="/login" component={Login} />
-                {/* <PrivateRoute path="/home" component={Home} /> */}
-            </Switch>
-        </BrowserRouter>
-    );
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Redirect exact to="/home" from="/" />
+        <Route path="/home" component={Home} />
+        <Route path="/game" component={Game} />
+        <Route path="/settings" component={Settings} />
+        <Route path="/help" component={Help} />
+      </Switch>
+    </BrowserRouter>
+  );
 }
 
 export default Routes;
