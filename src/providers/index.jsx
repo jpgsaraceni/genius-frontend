@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 
 function AppProvider({ children }) {
   return (
-    <AppProvider>
-        {children}
-    </AppProvider>
+    <>
+      {children}
+    </>
   );
 }
 
