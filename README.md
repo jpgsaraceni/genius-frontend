@@ -3,8 +3,8 @@
 <p align = "center">
 <img src="https://img.shields.io/badge/author-luanalessa-green" />
 <img src="https://img.shields.io/badge/author-jpgsaraceni-green" />
-<img src="https://img.shields.io/github/commit-activity/w/jpgsaraceni/simon-frontend?color=green"/> 
-<img src="https://img.shields.io/github/languages/count/jpgsaraceni/simon-frontend?color=green" />
+<img src="https://img.shields.io/github/commit-activity/w/jpgsaraceni/genius-frontend?color=green"/> 
+<img src="https://img.shields.io/github/languages/count/jpgsaraceni/genius-frontend?color=green" />
 
 </br>
 <br/>
@@ -33,7 +33,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Then, clone the repository with:
 
 ```
-git clone https://github.com/jpgsaraceni/simon-frontend.git
+git clone https://github.com/jpgsaraceni/genius-frontend.git
 ```
 
 So, in the project directory, you can run:
@@ -51,4 +51,4 @@ npm start
 
 to open the project on [localhost](http://localhost:3000) in your browser.
 
-:stop_sign: Don't forget to repeat the steps above with the [backend repository](https://github.com/luanalessa/simon-backend.git) to fully test the project
+:stop_sign: Don't forget to repeat the steps above with the [backend repository](https://github.com/luanalessa/genius-backend.git) to fully test the project
