@@ -1,70 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# <p align = "center"> GENIUS </p>
+<p align = "center">
+<img src="https://img.shields.io/badge/author-luanalessa-green" />
+<img src="https://img.shields.io/badge/author-jpgsaraceni-green" />
+<img src="https://img.shields.io/github/commit-activity/w/jpgsaraceni/simon-frontend?color=green"/> 
+<img src="https://img.shields.io/github/languages/count/jpgsaraceni/simon-frontend?color=green" />
 
-## Available Scripts
+</br>
+<br/>
+<p align="center">
+<img width="800px" src="https://user-images.githubusercontent.com/72531277/137216944-54cc016a-fd90-4aed-9ce0-2d8b9d60c984.png"/></p>
 
-In the project directory, you can run:
+</br>
 
-### `yarn start`
+<h1><p align="center"> 🚧 Repository under construction 👷‍♀️</p></h1>
+<p align="center">Updating the README, with explanations and utilities, while we build the project. Feel free to contribute!</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## <p align = "left"> 🔵 Technologies</p>
 
-### `yarn test`
+- [ReactJS](https://reactjs.org/)
+- [Axios](https://axios-http.com/docs/intro)
+- [styled-components](https://styled-components.com//)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</br>
 
-### `yarn build`
+# 🏁 Getting Started 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), so you need to install [Node.js](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/) first, in order to test the project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Then, clone the repository with:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/jpgsaraceni/simon-frontend.git
+```
 
-### `yarn eject`
+So, in the project directory, you can run:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm install
+```
+to install the dependencies.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then, run
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+to open the project on [localhost](http://localhost:3000) in your browser.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+:stop_sign: Don't forget to repeat the steps above with the [backend repository](https://github.com/luanalessa/simon-backend.git) to fully test the project
