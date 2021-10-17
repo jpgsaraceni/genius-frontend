@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Box from '../../assets/images/difficulty-gauge-box.svg';
+
 import { Container } from './styles';
 
 /**
@@ -10,7 +12,7 @@ import { Container } from './styles';
 function DifficultyGauge() {
   return (
     <Container>
-      Vertical bar
+      <img src={Box} alt="Vertical bar" />
     </Container>
   );
 }

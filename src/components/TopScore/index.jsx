@@ -6,7 +6,7 @@ import { Container } from './styles';
  * Rendered on Game page.
  * @returns {JSX.Element} 3 best scores with names, rounds and times.
  */
-function Top3() {
+function TopScore() {
   return (
     <Container>
       <fieldset>
@@ -19,4 +19,4 @@ function Top3() {
   );
 }
 
-export default Top3;
+export default TopScore;
