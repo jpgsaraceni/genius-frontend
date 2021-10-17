@@ -1,5 +1,12 @@
 import React from 'react';
 
+import DifficultyGauge from '../../components/DifficultyGauge';
+import SimonWheel from '../../components/SimonWheel';
+import Score from '../../components/Score';
+import TopScore from '../../components/TopScore';
+import Timer from '../../components/Timer';
+import ControlBar from '../../components/ControlBar';
+
 import { Container } from './styles';
 
 /**
@@ -9,34 +16,12 @@ import { Container } from './styles';
 function Game() {
   return (
     <Container>
-      <h1>The Game</h1>
-      <header>
-
-        <fieldset>
-          <legend>Your score</legend>
-          0
-        </fieldset>
-
-        <fieldset>
-          <legend>Timer</legend>
-          00:00
-        </fieldset>
-
-        <fieldset>
-          <legend>Top 3</legend>
-          João <br />
-          João <br />
-          Luana
-        </fieldset>
-      </header>
-
-      <main>
-        SimonWheel component
-      </main>
-
-      <aside>difficulty gauge component</aside>
-
-      <footer>Control bar component</footer>
+      <Score />
+      <Timer />
+      <TopScore />
+      <SimonWheel />
+      <DifficultyGauge />
+      <ControlBar />
     </Container>
   );
 }
