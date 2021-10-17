@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import background from './assets/images/background.jpeg';
+import background from './assets/images/background.png';
 
 export default createGlobalStyle`
     
@@ -16,6 +16,6 @@ export default createGlobalStyle`
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-content: center;
 }
 `;

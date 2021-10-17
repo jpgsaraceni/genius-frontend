@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Left, Right } from './styles';
+import * as S from './styles';
 
 /**
  * Home page.
@@ -8,10 +8,13 @@ import { Container, Left, Right } from './styles';
  */
 function Home() {
   return (
-    <Container className="flex">
-      <Left></Left>
-      <Right></Right>
-    </Container>
+    <S.Container className="flex">
+      <S.Left className="flex">
+         <S.GeniusLogo></S.GeniusLogo>
+         <S.GeniusPortal></S.GeniusPortal>
+      </S.Left>
+      <S.Right></S.Right>
+    </S.Container>
   );
 }
 
