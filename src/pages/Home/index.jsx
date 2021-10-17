@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Left, Right } from './styles';
 
 /**
  * Home page.
@@ -8,11 +8,9 @@ import { Container } from './styles';
  */
 function Home() {
   return (
-    <Container>
-      <h1>Genius</h1>
-      <button>Play button - opens Game page</button>
-      <button>Settings button - opens Settings page</button>
-      <button>Help button - opens Help page</button>
+    <Container className="flex">
+      <Left></Left>
+      <Right></Right>
     </Container>
   );
 }
