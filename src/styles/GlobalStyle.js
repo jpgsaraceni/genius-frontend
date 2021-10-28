@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import background from './assets/images/background.png';
+import background from '../assets/images/background.png';
 
 export default createGlobalStyle`
     
@@ -10,6 +10,7 @@ export default createGlobalStyle`
 
         display: flex;
         justify-content: center;
+        
     }    
 
     .flex{

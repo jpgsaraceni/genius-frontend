@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GlobalStyle from './GlobalStyle';
+import GlobalStyle from './styles/GlobalStyle';
 // import AppProvider from './providers';
 import Routes from './routes';
 
